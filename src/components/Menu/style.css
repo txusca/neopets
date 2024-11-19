@@ -1,0 +1,52 @@
+.nav {
+  height: 150px;
+}
+
+.patinha1 {
+  position: absolute;
+  top: 126px;
+  left: 827.09px;
+  z-index: 1;
+}
+
+.patinha2 {
+  position: absolute;
+  top: 12px;
+  left: 852.09px;
+  z-index: 1;
+}
+
+.patinha3 {
+  position: absolute;
+  left: 999.09px;
+  z-index: 1;
+}
+
+.nav-link {
+  color: #703748;
+  font-size: 15px;
+  font-weight: 800;
+  white-space: nowrap;
+}
+
+.logo-image {
+  width: 160px;
+}
+
+.container {
+  margin-left: auto;
+}
+
+.information-header {
+  display: flex;
+  margin-right: 0;
+  margin-left: auto;
+  align-items: flex-end;
+  z-index: 1;
+}
+
+.teste {
+  position: absolute;
+  z-index: 0;
+  right: 0%;
+}
