@@ -10,7 +10,7 @@ import patinha3 from '../../assets/patinhas-brancas/patinha-branca-3.svg';
 const Menu = () => {
   return (
     <div>
-      <Navbar collapseOnSelect expand="lg" className="nav w-100">
+      <Navbar expand="lg" className="nav w-100">
         <div className="d-flex justify-content-between align-items-center w-100 px-3">
           <img src={patinha1} alt="" className='patinha1' />
           <img src={patinha2} alt="" className='patinha2'/>
