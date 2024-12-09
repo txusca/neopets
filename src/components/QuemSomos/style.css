@@ -1,0 +1,25 @@
+.quem-somos-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.quem-somos-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #703748;
+  margin-left: -130px;
+}
+.quem-somos-text h1 {
+  font-size: 72px;
+  font-weight: bold;
+  margin-bottom: 40px;
+  white-space: nowrap;
+}
+
+.quem-somos-text p {
+  font-size: 18px;
+  font-weight: 300;
+  text-align: center;
+}

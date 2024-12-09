@@ -1,0 +1,41 @@
+.services-container {
+  height: 515px;
+  background-color: #FFDE59;
+}
+
+.title {
+  color: #703748;
+  font-weight: bold;
+  text-align: center;
+  padding: 80px;
+}
+
+.service {
+  margin: 0 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.service .service-circle {
+  height: 159px;
+  width: 159px;
+  background-color: #703748;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.service .service-title {
+  color: #703748;
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.services-list {
+  display: flex;
+  justify-content: center;
+}
