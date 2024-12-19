@@ -2,6 +2,7 @@ import './App.css';
 import Menu from './components/Menu';
 import NossosServicos from './components/NossosServicos';
 import QuemSomos from './components/QuemSomos';
+import PorqueEscolher from "./components/PorqueEscolher/index.jsx";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <Menu />
       <QuemSomos />
       <NossosServicos />
+      <PorqueEscolher />
     </div>
   );
 }
