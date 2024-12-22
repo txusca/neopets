@@ -1,0 +1,53 @@
+.container-agende {
+  display: flex;
+  /*justify-content: center;*/
+  align-items: center;
+  background-color: #FFDE59;
+  border-radius: 34px;
+  flex-wrap: wrap;
+}
+
+.container-agende .cachorro {
+  margin-left: 48px;
+}
+
+.teste {
+  align-content: end;
+}
+
+.container-text {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.container-text h3 {
+  color: #703748;
+}
+
+.container-text p {
+  white-space: pre-line;
+  line-height: 1.5; /* Ajusta o espaçamento entre linhas */
+  max-width: 300px; /* Defina a largura para alinhar o texto */
+  font-size: 16px;
+  color: #703748;
+}
+
+.fale-conosco-btn {
+   display: flex;
+   flex-direction: row;
+   width: 294px;
+   height: 84px;
+   background-color: #25D366;
+   border-radius: 15px;
+   color: white;
+   justify-content: center;
+   align-items: center;
+   font-size: 30px;
+   font-weight: 400;
+ }
+
+.fale-conosco-btn img {
+  margin-left: 30px;
+}
+
