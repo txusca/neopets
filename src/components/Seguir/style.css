@@ -1,0 +1,22 @@
+.seguir-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    gap: 10px;
+}
+
+.seguir-title {
+  color: #703748;
+}
+
+.seguir-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #FFDE59;
+  width: 100px;
+  height: 43px;
+  border-radius: 10px;
+  color: #703748;
+}
