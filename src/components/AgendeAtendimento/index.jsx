@@ -1,14 +1,14 @@
-import "./style.css";
+import './style.css';
 
-import gatinhos from "../../assets/gatinhos.svg";
-import cachorro from "../../assets/cachorro-de-pe.svg";
-import gatinho from "../../assets/gatinho.svg";
-import wpp from "../../assets/wpp-button.svg";
+import gatinhos from '../../assets/gatinhos.png';
+import cachorro from '../../assets/cachorro-de-pe.svg';
+import gatinho from '../../assets/gatinho.png';
+import wpp from '../../assets/wpp-button.svg';
 
 const AgendeAtendimento = () => {
   return (
     <div className="container-fluid">
-      <img src={gatinhos} alt="" />
+      <img className="gatinhos" src={gatinhos} alt="" />
       <div className="container-agende">
         <img className="cachorro" src={cachorro} alt="" />
         <div className="container-text">
@@ -23,7 +23,7 @@ const AgendeAtendimento = () => {
             <img src={wpp} alt="" />
           </div>
         </div>
-        <img className="teste" src={gatinho} alt="" />
+        <img className="gatinho" src={gatinho} alt="" />
       </div>
     </div>
   );
