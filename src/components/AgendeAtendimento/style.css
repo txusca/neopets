@@ -1,3 +1,13 @@
+.container-fluid {
+  display: flex;
+  flex-direction: column;
+}
+
+.gatinhos {
+  transform: scale(0.6);
+  margin-bottom: -38px;
+}
+
 .container-agende {
   display: flex;
   /*justify-content: center;*/
@@ -11,8 +21,12 @@
   margin-left: 48px;
 }
 
-.teste {
-  align-content: end;
+.gatinho {
+  position: relative;
+  margin-left: auto;
+  margin-top: -200px;
+  margin-right: 24px; /* Ajuste o espaçamento da borda direita */
+  align-self: flex-end; /* Posiciona a imagem no final do container */
 }
 
 .container-text {

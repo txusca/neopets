@@ -1,0 +1,29 @@
+.swiper-wrapper {
+  padding: 50px 0 100px 0;
+}
+.image-carrossel {
+  max-width: 400px;
+  max-height: 400px;
+  object-fit: contain;
+  border-radius: 30px;
+}
+
+.swiper-pagination {
+  bottom: 0 !important; /* Ajuste o valor para a posição desejada */
+}
+
+.swiper-pagination-bullet {
+  background-color: #FFDE59 !important;
+}
+
+/* Estilo para o slide ativo */
+.swiper-slide-active .image-carrossel {
+  transform: scale(1.2) !important; /* Aumenta o tamanho em 30% */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Animação suave */
+}
+
+/* Voltar ao estado original para slides não ativos */
+.swiper-slide .image-carrossel {
+  transform: scale(1); /* Escala normal */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Animação suave */
+}
