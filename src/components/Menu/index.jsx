@@ -10,13 +10,13 @@ import patinha3 from '../../assets/patinhas-brancas/patinha-branca-3.svg';
 const Menu = () => {
   return (
     <div>
-      <Navbar expand="lg" className="nav w-100">
+      <Navbar className="nav w-100">
         <div className="d-flex justify-content-between align-items-center w-100 px-3">
-          <img src={patinha1} alt="" className='patinha1' />
-          <img src={patinha2} alt="" className='patinha2'/>
-          <img src={patinha3} alt="" className='patinha3'/>
+          <img src={patinha1} alt="" className="patinha1" />
+          <img src={patinha2} alt="" className="patinha2" />
+          <img src={patinha3} alt="" className="patinha3" />
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-          <Navbar.Brand href="#home">
+          <Navbar.Brand href="/">
             <img className="logo-image" src={logo} alt="Logo NeoPet's" />
           </Navbar.Brand>
           <Navbar.Collapse id="responsive-navbar-nav">
@@ -24,10 +24,13 @@ const Menu = () => {
             <Nav className="information-header">
               <SocialIcons icon="whatsapp" />
               <Nav.Link className="tel" href="#tel">
-                (38) 9 97413703
+                (38) 9 9741-3703
               </Nav.Link>
               <SocialIcons icon="addres-icon" />
-              <Nav.Link href="#address">
+              <Nav.Link
+                href="https://maps.app.goo.gl/T1vJEqhQFpAvbu496"
+                target="_blank"
+              >
                 Rua Barão Rio Branco, 326 Centro, Curvelo
               </Nav.Link>
             </Nav>

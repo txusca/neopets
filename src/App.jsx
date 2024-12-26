@@ -6,6 +6,7 @@ import PorqueEscolher from './components/PorqueEscolher/index.jsx';
 import Carrossel from './components/Carrossel/index.jsx';
 import AgendeAtendimento from './components/AgendeAtendimento/index.jsx';
 import Seguir from './components/Seguir/index.jsx';
+import Footer from './components/Footer/index.jsx';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Carrossel />
       <Seguir />
       <AgendeAtendimento />
+      <Footer />
     </div>
   );
 }

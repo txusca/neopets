@@ -18,10 +18,12 @@ const AgendeAtendimento = () => {
             atendimento do seu pet com apenas um clique. Nossa equipe está
             pronta para cuidar com carinho e dedicação.
           </p>
-          <div className="fale-conosco-btn">
-            Fale conosco
-            <img src={wpp} alt="" />
-          </div>
+          <a href="" target="_blank">
+            <div className="fale-conosco-btn">
+              Fale conosco
+              <img src={wpp} alt="" />
+            </div>
+          </a>
         </div>
         <img className="gatinho" src={gatinho} alt="" />
       </div>
