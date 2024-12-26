@@ -1,0 +1,18 @@
+.footer {
+  margin: 50px 50px 0 50px;
+}
+
+.socials {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.contatos h4 {
+  color: #703748;
+  font-weight: 400;
+}
+
+.contatos p {
+  color: #703748;
+}
