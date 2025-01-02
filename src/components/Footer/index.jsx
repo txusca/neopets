@@ -29,12 +29,20 @@ const Footer = () => {
           </div>
           <div className="contatos col-md-4">
             <h4>Contatos</h4>
-            <a href="https://wa.me/+5538997413703" target="_blank" rel="noopener noreferrer">
+            <a
+              href="https://wa.me/+5538997413703"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <p>
                 <img src={wpp} alt="Whatsapp" /> (38) 9 9741-3703
               </p>
             </a>
-            <a href="http://" target="_blank" rel="noopener noreferrer">
+            <a
+              href="mailto:exlabneopets@hotmail.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <p>
                 <img src={mail} alt="e-mail" /> exlabneopets@hotmail.com
               </p>
