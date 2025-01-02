@@ -1,25 +1,27 @@
 .nav {
   height: 150px;
+  position: relative;
+}
+
+.patinha1,
+.patinha2,
+.patinha3 {
+  position: absolute;
+  z-index: 2; /* Ensure icons are above forma-cabecalho */
 }
 
 .patinha1 {
-  position: absolute;
   top: 126px;
   left: 827.09px;
-  z-index: 1;
 }
 
 .patinha2 {
-  position: absolute;
   top: 12px;
   left: 852.09px;
-  z-index: 1;
 }
 
 .patinha3 {
-  position: absolute;
   left: 999.09px;
-  z-index: 1;
 }
 
 .nav-link {
@@ -31,6 +33,10 @@
 
 .logo-image {
   width: 160px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 3; /* Ensure logo is above forma-cabecalho */
 }
 
 .container {
@@ -45,8 +51,41 @@
   z-index: 1;
 }
 
-.teste {
+.forma-cabecalho {
   position: absolute;
   z-index: 0;
   right: 0%;
+  width: 100%; /* Make the image responsive */
+  max-width: 600px; /* Set a maximum width */
+  top: 0; /* Ensure it stays at the top */
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+  .nav {
+    height: auto;
+  }
+
+  .patinha1,
+  .patinha2,
+  .patinha3 {
+    display: none;
+  }
+
+  .logo-image {
+    width: 120px;
+  }
+
+  .information-header {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav-link {
+    display: none;
+  }
+
+  .forma-cabecalho {
+    display: none; /* Hide the forma-cabecalho image on mobile sizes */
+  }
 }
