@@ -43,10 +43,31 @@ const Carrossel = () => {
         pagination
         zoom
         slideActiveClass="swiper-slide-active"
+        breakpoints={{
+          // Pequenos dispositivos (ex: smartphones)
+          320: {
+            slidesPerView: 1,
+            spaceBetween: 20,
+          },
+          // Tablets
+          768: {
+            slidesPerView: 2,
+            spaceBetween: 30,
+          },
+          // Telas médias (ex: laptops pequenos)
+          1024: {
+            slidesPerView: 3,
+            spaceBetween: 40,
+          },
+          // Telas maiores (ex: desktops)
+          1440: {
+            slidesPerView: 3,
+            spaceBetween: 50,
+          },
+        }}
       >
         {imagePaths.map((path, index) => (
           <SwiperSlide key={index}>
-            {console.log(path.default)}
             <img className="image-carrossel" src={path.default} alt="" />
           </SwiperSlide>
         ))}

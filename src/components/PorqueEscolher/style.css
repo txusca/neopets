@@ -24,8 +24,6 @@
   flex-direction: row;
   align-items: flex-start;
   gap: 15px;
-
-  /*margin: 0 96px 0 157px;*/
   width: 598px;
   height: 147px;
 }
@@ -41,4 +39,38 @@
 
 .porque-escolher-item-text {
   text-align: left;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+  .porque-escolher-container {
+    padding: 10px;
+  }
+
+  .porque-escolher-container h2 {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 36px;
+  }
+
+  .porque-escolher-list {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .porque-escolher-item {
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .porque-escolher-item img {
+    margin: 0 0 10px 0;
+  }
+
+  .porque-escolher-item-text {
+    text-align: center;
+  }
 }

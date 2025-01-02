@@ -16,3 +16,24 @@
 .contatos p {
   color: #703748;
 }
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+  .footer {
+    margin: 20px 20px 0 20px;
+    text-align: center;
+  }
+
+  .socials {
+    justify-content: center; /* Ensure items remain in the same line */
+    gap: 15px;
+  }
+
+  .contatos h4 {
+    font-size: 18px;
+  }
+
+  .contatos p {
+    font-size: 14px;
+  }
+}

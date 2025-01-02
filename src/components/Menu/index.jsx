@@ -20,7 +20,7 @@ const Menu = () => {
             <img className="logo-image" src={logo} alt="Logo NeoPet's" />
           </Navbar.Brand>
           <Navbar.Collapse id="responsive-navbar-nav">
-            <img src={formaCabecalho} alt="" className="teste" />
+            <img src={formaCabecalho} alt="" className="forma-cabecalho" />
             <Nav className="information-header">
               <SocialIcons icon="whatsapp" />
               <Nav.Link className="tel" href="#tel">

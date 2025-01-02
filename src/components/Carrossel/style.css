@@ -1,6 +1,7 @@
 .swiper-wrapper {
   padding: 50px 0 100px 0;
 }
+
 .image-carrossel {
   max-width: 400px;
   max-height: 400px;
@@ -26,4 +27,24 @@
 .swiper-slide .image-carrossel {
   transform: scale(1); /* Escala normal */
   transition: transform 0.3s ease, box-shadow 0.3s ease; /* Animação suave */
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+  .swiper-wrapper {
+    padding: 20px 0 50px 0;
+  }
+
+  .image-carrossel {
+    max-width: 300px;
+    max-height: 300px;
+  }
+
+  .swiper-pagination {
+    bottom: 10px !important; /* Ajuste o valor para a posição desejada */
+  }
+
+  .swiper-slide-active .image-carrossel {
+    transform: scale(1.1) !important; /* Aumenta o tamanho em 10% */
+  }
 }
