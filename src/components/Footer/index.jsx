@@ -3,7 +3,6 @@ import './style.css';
 import logo from '../../assets/logo.svg';
 import face from '../../assets/Facebook.svg';
 import insta from '../../assets/Instagram.svg';
-import twit from '../../assets/twitter.svg';
 
 import wpp from '../../assets/whatsapp-icon.svg';
 import mail from '../../assets/mail.png';
@@ -26,21 +25,18 @@ const Footer = () => {
               >
                 <img src={insta} alt="Instagram" />
               </a>
-              <a href="" target="_blank">
-                <img src={twit} alt="Twitter" />
-              </a>
             </div>
           </div>
           <div className="contatos col-md-4">
             <h4>Contatos</h4>
-            <a href="http://" target="_blank" rel="noopener noreferrer">
+            <a href="https://wa.me/+5538997413703" target="_blank" rel="noopener noreferrer">
               <p>
                 <img src={wpp} alt="Whatsapp" /> (38) 9 9741-3703
               </p>
             </a>
             <a href="http://" target="_blank" rel="noopener noreferrer">
               <p>
-                <img src={mail} alt="e-mail" /> none@email.com.br
+                <img src={mail} alt="e-mail" /> exlabneopets@hotmail.com
               </p>
             </a>
           </div>

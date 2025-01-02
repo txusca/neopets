@@ -23,7 +23,7 @@ const Menu = () => {
             <img src={formaCabecalho} alt="" className="forma-cabecalho" />
             <Nav className="information-header">
               <SocialIcons icon="whatsapp" />
-              <Nav.Link className="tel" href="#tel">
+              <Nav.Link className="tel" href="https://wa.me/+5538997413703">
                 (38) 9 9741-3703
               </Nav.Link>
               <SocialIcons icon="addres-icon" />

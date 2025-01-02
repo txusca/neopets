@@ -18,7 +18,7 @@ const AgendeAtendimento = () => {
             atendimento do seu pet com apenas um clique. Nossa equipe está
             pronta para cuidar com carinho e dedicação.
           </p>
-          <a href="" target="_blank">
+          <a href="https://wa.me/+5538997413703" target="_blank">
             <div className="fale-conosco-btn">
               Fale conosco
               <img src={wpp} alt="" />
