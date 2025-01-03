@@ -41,7 +41,7 @@
   }
 
   .swiper-pagination {
-    bottom: 10px !important; /* Ajuste o valor para a posição desejada */
+    bottom: 0px !important; /* Ajuste o valor para a posição desejada */
   }
 
   .swiper-slide-active .image-carrossel {
