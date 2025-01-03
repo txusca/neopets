@@ -74,13 +74,14 @@
 
   .gatinhos {
     transform: scale(0.5);
-    margin-bottom: -30px;
+    margin-bottom: -27px;
   }
 
   .container-agende {
     flex-direction: column;
     align-items: center;
-    padding: 10px;
+    border-radius: 0;
+    /* padding: 10px; */
   }
 
   .container-agende .cachorro {
@@ -100,8 +101,7 @@
 
   .container-text p {
     font-size: 14px;
-    max-width: 100%;
-    padding-left: 10px;
+    max-width: 80%;
   }
 
   .fale-conosco-btn {
