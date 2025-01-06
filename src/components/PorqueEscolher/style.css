@@ -6,7 +6,7 @@
 }
 
 .porque-escolher-container h2 {
-  text-align: end;
+  text-align: center;
   margin: 67px 122px 53px 0;
   color: #703748;
   font-weight: bold;
@@ -64,6 +64,7 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
+    margin-top: 10px !important;
   }
 
   .porque-escolher-item img {
